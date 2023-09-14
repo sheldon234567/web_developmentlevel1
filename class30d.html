@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1> <center> Javascript events</center></h1>
+<p id="demo">
+click me
+</p>
+<script>
+function mousedown () {
+document.getElementById ("demo").innerHTML="The Mouse Button Is Held Down"
+
+}
+
+function mouseup () {
+    document.getElementById ("demo").innerHTML="You released the mouse button"
+}
+document.getElementById("demo").onmousedown = function() {mousedown()};
+document.getElementById("demo").onmouseup = function() {mouseup()};
+</script>
+</body>
+
+</html>

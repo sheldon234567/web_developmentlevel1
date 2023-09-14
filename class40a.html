@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<!--ASK THE STUDENT TO CREATE A CAR DRIVING VALIDATOR
+    ACCORDING TO THE AGE!-->
+<button onclick="press()">click me!</button>
+<p id="A"></p>
+<script>
+function press() {
+var age=prompt("How old are you?")
+if (age<18 ){
+text = "You are not elligible for driving"
+}
+else {
+text="You are elligible for driving"
+}
+document.getElementById("A").innerHTML=text
+}
+</script>
+</body>
+</html>

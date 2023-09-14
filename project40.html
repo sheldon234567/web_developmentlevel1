@@ -1,0 +1,24 @@
+<!--PROJECT:-CREATE A MARKS CLASSIFIER.
+1.FOR MARKS SECURED LESS THAN 75%  PRINT AN ALERT  AS "YOU NEED TO WORK
+REALLY HARD"  
+2.FOR MARKS SECURED ABOVE 75% PRINT AN ALERT AS "MAINTAIN THE CONSISTENCY".-->
+<html>
+<head>
+</head>
+<body>
+<button onclick="press()">click me!</button>
+<p id="a"></p>
+</body>
+<script>
+function press () {
+var percentage=prompt("What score did you get on the test?")
+if (percentage<75) {
+text = "You need to work harder"
+}
+else {
+text="maintain the consistency"
+}
+document.getElementById("a").innerHTML=text 
+}
+</script>
+</html>

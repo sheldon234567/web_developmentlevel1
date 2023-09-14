@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1><center>Project on events </center></h1>
+<button onclick="press()">click me</button>
+<p id="A"></p>
+<script>
+function press(){
+var person=prompt("please enter your name")
+if (person==null || person==""){
+text="user cancelled the prompt"
+}
+else {
+text="hello"+person+"how are you today?"
+}
+document.getElementById("A").innerHTML=text
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.a {
+width: 300px;
+height: 300px;
+background-color: red;
+animation-name: c-change;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+border-radius: 100%;
+}
+@keyframes c-change {
+0% {background-color: red;
+} 
+25% {background-color: blue;}
+
+50% {background-color: green;}
+
+75% {background-color: yellow;}
+
+100% {background-color: tomato;}
+}
+div.b 
+width: 300px;
+height: 300px;
+background-color: red;
+animation-name color-change;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+border-radius: 100%;
+{
+@keyframes color-change {
+0% {left: 0px; top: 0px 
+}
+25% {left: 200px; top: 0px}
+50% {left:200px; top: 200px}
+75% {left: 0px; top:200px}
+100% {left: 0px; top: 0px;}
+}
+}
+
+</style>
+</head>
+<body>
+<div class="a"></div> <br> <br>
+<div class="b"></div> <br> <br>
+</body>
+</html>
